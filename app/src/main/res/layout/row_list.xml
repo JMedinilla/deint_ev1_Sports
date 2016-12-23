@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/row_imgIcon"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/contentdescription" />
+
+        <TextView
+            android:id="@+id/row_txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/row_imgIcon"
+            android:layout_alignTop="@+id/row_imgIcon"
+            android:layout_marginEnd="40dp"
+            android:layout_toEndOf="@+id/row_imgIcon"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/row_chbChecked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/row_imgIcon"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/row_imgIcon" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

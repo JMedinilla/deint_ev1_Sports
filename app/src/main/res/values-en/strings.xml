@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_home_btnAccept">Accept</string>
+    <string name="activity_home_txtMessage">Select your favorite sports and press the button to save them</string>
+    <string name="filter_sports">Filter sports</string>
+    <string name="message_dialog">Write one character in order to filter the sports</string>
+    <string name="title_dialog">Filter</string>
+    <string name="toast_dialog">You can\\\' type more than 1 character</string>
+</resources>

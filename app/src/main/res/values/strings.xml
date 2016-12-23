@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">MedinillaDeportes</string>
+    <string name="activity_home_txtMessage">Selecciona los deportes que te gustan y pulsa el botón para aceptar los cambios</string>
+    <string name="activity_home_btnAccept">Aceptar</string>
+    <string name="contentdescription" translatable="false">contentDescription</string>
+    <string name="filter_sports">Filtrar deportes</string>
+    <string name="toast_dialog">No se admite más de 1 carácter, máquina, fiera, crack, figura</string>
+    <string name="title_dialog">Filtrar</string>
+    <string name="message_dialog">Escribe una letra para filtrar los deportes</string>
+    <string name="button_dialog" translatable="false">OK</string>
+</resources>
